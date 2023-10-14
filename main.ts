@@ -29,7 +29,7 @@ input.onButtonPressed(Button.A, function () {
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Blue))
     neopixelStrip.show()
     basic.pause(1000)
-    neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
+    neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
     neopixelStrip.show()
   }
 
