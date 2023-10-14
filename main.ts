@@ -44,7 +44,7 @@ input.onButtonPressed(Button.A, function () {
 
   // turn neopixel 2 orange if light value is greater or equal to 104
   if (lightValue >= 104) {
-    neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Yellow))
+    neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Orange))
     neopixelStrip.show()
     basic.pause(1000)
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
