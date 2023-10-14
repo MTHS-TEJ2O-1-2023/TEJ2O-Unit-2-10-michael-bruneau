@@ -31,17 +31,20 @@ input.onButtonPressed(Button.A, function () {
   }
 
   // turn neopixel 1 yellow if light value is greater than 52 or equal
-  if (lightValue >= 52)
+  if (lightValue >= 52) {
     neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Yellow))
     neopixelStrip.show()
+  }
 
   // turn neopixel 2 orange if light value is greater or equal to 104
-  if (lightValue >= 104)
+  if (lightValue >= 104) {
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Yellow))
     neopixelStrip.show()
+  }
 
   // turn neopixel 3 red if light value is greater or equal to 156
-  if (lightValue >= 156)
+  if (lightValue >= 156) {
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Red))
     neopixelStrip.show()
+  }
 })
