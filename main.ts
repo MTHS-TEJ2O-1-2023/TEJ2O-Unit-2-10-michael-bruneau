@@ -28,11 +28,17 @@ input.onButtonPressed(Button.A, function () {
   if (lightValue <= 51) {
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Blue))
     neopixelStrip.show()
+    basic.pause(1000)
+    neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
+    neopixelStrip.show()
   }
 
   // turn neopixel 1 yellow if light value is greater than 52 or equal
   if (lightValue >= 52) {
     neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Yellow))
+    neopixelStrip.show()
+    basic.pause(1000)
+    neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
     neopixelStrip.show()
   }
 
@@ -40,11 +46,26 @@ input.onButtonPressed(Button.A, function () {
   if (lightValue >= 104) {
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Yellow))
     neopixelStrip.show()
+    basic.pause(1000)
+    neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
+    neopixelStrip.show()
   }
 
   // turn neopixel 3 red if light value is greater or equal to 156
   if (lightValue >= 156) {
-    neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Red))
+    neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Red))
+    neopixelStrip.show()
+    basic.pause(1000)
+    neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
     neopixelStrip.show()
   }
+  // turn neopixel 3 purple if light value is greater or equal to 208
+  if (lightValue >= 208) {
+    neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Purple))
+    neopixelStrip.show()
+    basic.pause(1000)
+    neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
+    neopixelStrip.show()
+  }
+  basic.showIcon(IconNames.Happy)
 })
