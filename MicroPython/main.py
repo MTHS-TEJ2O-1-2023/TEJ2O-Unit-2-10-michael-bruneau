@@ -26,7 +26,7 @@ while True:
         display.clear()
         light_value = display.read_light_level()
 
-        if light_value <= 51 :
+        if light_value <= 51:
             np[0] = (0, 0, 255)
             np.show()
             sleep(1000)
