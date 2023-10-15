@@ -58,9 +58,9 @@ while True:
                 np.show()
 
         if light_value >= 208:
-            np[0] = (255, 0, 255)
+            np[3] = (255, 0, 255)
             np.show()
             sleep(1000)
-            np[0] = (0, 0, 0)
+            np[3] = (0, 0, 0)
             np.show()
         display.show(Image.HAPPY)
