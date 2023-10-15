@@ -41,7 +41,7 @@ input.onButtonPressed(Button.A, function () {
       basic.pause(1000)
       neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
       neopixelStrip.show()
-    } 
+    }
   }
 
   // turn neopixel 2 orange if light value is greater or equal to 104
@@ -52,7 +52,7 @@ input.onButtonPressed(Button.A, function () {
       basic.pause(1000)
       neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
       neopixelStrip.show()
-    } 
+    }
   }
 
   // turn neopixel 3 red if light value is greater or equal to 156
@@ -63,7 +63,7 @@ input.onButtonPressed(Button.A, function () {
       basic.pause(1000)
       neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
       neopixelStrip.show()
-    } 
+    }
   }
 
   // turn neopixel 3 purple if light value is greater or equal to 208
