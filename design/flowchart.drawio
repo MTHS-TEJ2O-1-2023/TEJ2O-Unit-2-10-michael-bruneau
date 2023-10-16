@@ -22,8 +22,14 @@
                 <mxCell id="18" value="clear screen&lt;br&gt;show happy face" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
                     <mxGeometry x="105" y="190" width="150" height="70" as="geometry"/>
                 </mxCell>
+                <mxCell id="92" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="20" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="20" value="Set all neopixels RGB values to (0, 0, 0,)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="130" y="280" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="21" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
                     <mxGeometry x="390" y="110" width="100" height="60" as="geometry"/>
@@ -31,71 +37,113 @@
                 <mxCell id="24" value="button a" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="405" y="70" width="70" height="30" as="geometry"/>
                 </mxCell>
+                <mxCell id="95" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="25" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="25" value="clear screen" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
                     <mxGeometry x="390" y="210" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="26" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="light value = iinput.lightLevel()&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="390" y="320" width="100" height="100" as="geometry"/>
                 </mxCell>
+                <mxCell id="97" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="27" target="74">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="27" value="light value less than or eqaul to 51&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="325" y="560" width="200" height="170" as="geometry"/>
+                    <mxGeometry x="340" y="450" width="200" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="light value is greater than 52 or equal" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="310" y="820" width="230" height="120" as="geometry"/>
+                    <mxGeometry x="302.5" y="910" width="230" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="light value is less than 104" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="630" y="830" width="160" height="100" as="geometry"/>
+                    <mxGeometry x="600" y="920" width="160" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="light value is greater or equal to 104" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="285" y="1160" width="215" height="125" as="geometry"/>
+                    <mxGeometry x="310" y="1080" width="215" height="125" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="light value is less than 156" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="670" y="1172.5" width="140" height="107.5" as="geometry"/>
+                    <mxGeometry x="570" y="1088.75" width="140" height="107.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="&amp;nbsp;light value is greater or equal to 156" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="330" y="1520" width="155" height="120" as="geometry"/>
+                    <mxGeometry x="330" y="1570" width="155" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" value="light value is less than 208" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="640" y="1515" width="180" height="130" as="geometry"/>
+                    <mxGeometry x="680" y="1580" width="180" height="130" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="light value is greater or equal to 208" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="330" y="1910" width="155" height="100" as="geometry"/>
+                    <mxGeometry x="330" y="1810" width="155" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" value="display happy face" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="335" y="2250" width="140" height="70" as="geometry"/>
+                    <mxGeometry x="360" y="2370" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="39" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" value="display neopixel colors" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
                     <mxGeometry x="130" y="410" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="display neopixel colors" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="580" y="2070" width="100" height="60" as="geometry"/>
+                <mxCell id="67" value="display neopixel colors&lt;br&gt;pause 1 second" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="1950" width="160" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="display neopixel colors" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="940" y="1690" width="100" height="60" as="geometry"/>
+                <mxCell id="69" value="display neopixel colors&lt;br&gt;pause 1 second" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="870" y="1740" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="display neopixel colors" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="950" y="1330" width="100" height="60" as="geometry"/>
+                <mxCell id="71" value="display neopixel colors&lt;br&gt;pause 1 second" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="1220" width="160" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="display neopixel colors" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="950" y="1000" width="100" height="60" as="geometry"/>
+                <mxCell id="73" value="display neopixel colors&lt;br&gt;pause 1 second" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="850" y="1060" width="180" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="74" value="set neopixel 0 to blue" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="630" y="600" width="100" height="100" as="geometry"/>
+                    <mxGeometry x="640" y="500" width="100" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="75" value="display neopixel colors" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="630" y="730" width="100" height="60" as="geometry"/>
+                <mxCell id="75" value="display neopixel colors&lt;br&gt;pause 1 second" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="630" width="160" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="78" value="set neopixel 1 to yellow" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="960" y="880" width="100" height="100" as="geometry"/>
+                    <mxGeometry x="890" y="920" width="100" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="79" value="set neopixel 0 to blue" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="590" y="1950" width="100" height="100" as="geometry"/>
+                <mxCell id="79" value="set neopixel 3 to purple" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="1810" width="100" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="80" value="set neopixel 3 to red" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="940" y="1570" width="100" height="100" as="geometry"/>
+                    <mxGeometry x="900" y="1590" width="100" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="81" value="set neopixel 2 to orange" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="960" y="1210" width="100" height="100" as="geometry"/>
+                    <mxGeometry x="740" y="1096.25" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="set neopixel 2 to black" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="1310" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="display neopixel colors&lt;br&gt;pause 1 second" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="1430" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="set neopixel 3 to black" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="2050" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="display neopixel colors&lt;br&gt;pause 1 second" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="2190" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="set neopixel 3 to black" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="1840" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="display neopixel colors&lt;br&gt;pause 1 second" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="1970" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="set neopixel 1 to black" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="1150" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="display neopixel colors&lt;br&gt;pauyse 1 second" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="855" y="1270" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="set neopixel 0 to black" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="720" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="display neopixel colors&lt;br&gt;pause 1 second" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="840" width="160" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
